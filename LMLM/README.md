@@ -1,12 +1,12 @@
 ## Improving Temporal Generalization of Pre-trained Language Models with Lexical Semantic Change
 
 This repository contains the code and pre-trained models for our paper [Improving Temporal Generalization of Pre-trained Language Models with Lexical Semantic Change](https://github.com/noise-learning/SelfMix/blob/main)
-
+https://github.com/warrier98/temporal_adaptation/blob/main/LMLM
 
 
 ## Quick Links
 
-- [Overview](https://github.com/warrier98/temporal_adaptation/LMLM#overview)
+- [Overview](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Overview)
 - Datasets
 - Baseline
 - Train
