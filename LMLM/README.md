@@ -153,7 +153,7 @@ done
 
 Here we list our results of different masking strategies of LMLM in Arxiv datasets. More information about experiment details and results can be seen in our paper.
 
-![](heatmap.pdf)
+![](heatmap.png)
 
 
 
