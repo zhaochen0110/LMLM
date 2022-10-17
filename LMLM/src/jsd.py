@@ -44,11 +44,11 @@ def gulordava_baroni_correlation(clusterings, usages, jsd_output):
 
 if __name__ == '__main__':
     # Load usages
-    with open('/data1/pivot-extraction/saved_usage/arxiv_09_21.dict', 'rb') as f:
+    with open('data/arxiv/arxiv_word/arxiv_09_21.dict', 'rb') as f:
         usages = pickle.load(f)
 
     # Load clusterings
-    with open('/data1/pivot-extraction/saved_usage/arxiv_09_21.clustering.dict', 'rb') as f:
+    with open('data/arxiv/arxiv_word/arxiv_09_21.clustering.dict', 'rb') as f:
         clusterings = pickle.load(f)
 
 
@@ -62,4 +62,4 @@ if __name__ == '__main__':
 
 
     new_usages = format_usages(usages)
-    df = gulordava_baroni_correlation(clusterings, new_usages, 'saved_usage/reverse2009.txt')
+    df = gulordava_baroni_correlation(clusterings, new_usages, 'data/arxiv/arxiv_word/jsd_09_21.txt')

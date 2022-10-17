@@ -858,13 +858,3 @@ def get_prototypes(word, clustering, usages, n=5, window=5):
 
     return prototypes
 
-if __name__=='__main__':
-    with open('/data1/pivot-extraction/saved_usage/test_usage.dict', 'rb') as f:
-        usages = pickle.load(f)
-
-    clusterings = obtain_clusterings(
-        usages,
-        out_path='/data1/pivot-extraction/saved_usage/test_usage.clustering.dict',
-        method='kmeans',
-        criterion='silhouette'
-    )

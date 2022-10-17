@@ -12,8 +12,8 @@ for year in "16" ;do
   for loop in $(seq 0 4); do
     python src/finetuning.py \
       --model_name_or_path saved_models/mlm_model/poliaff${year}-${mlm_prob}-${pivot_num}-mlm-${gpu_num}gpu \
-      --train_file /data1/pivot-extraction/data/poliaff/train/20${year}.csv \
-      --validation_file /data1/pivot-extraction/data/poliaff/test/2017.csv \
+      --train_file data/poliaff/train/20${year}.csv \
+      --validation_file data/poliaff/test/2017.csv \
       --do_train \
       --do_eval \
       --seed ${seed_list[${loop}]} \

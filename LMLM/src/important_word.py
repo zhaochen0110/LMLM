@@ -2,6 +2,7 @@ import yake
 import pandas as pd
 import random
 import re
+from extract_word import get_top_word
 from sklearn.feature_extraction.text import CountVectorizer
 # def get_MI_word(file_path, save_path, topk_freq):
 
@@ -58,6 +59,7 @@ def get_important_word(file_path, save_path):
 
 
 if __name__ == '__main__':
-    get_frequency_word('/data1/pivot-extraction/data/arxiv/arxiv_2019.csv',
-                       '/data1/pivot-extraction/data/arxiv_word/2019/frequency_word.csv', 2000)
+    get_frequency_word('data/arxiv/arxiv_2019.csv',
+                       'data/arxiv/arxiv_word/frequency_word.csv', 2000)
+    get_top_word('data/arxiv_word/2019/frequency_word.csv', 'data/arxiv_word/2019/extract_word.csv')
     print('finish!')

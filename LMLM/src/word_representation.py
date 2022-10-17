@@ -107,11 +107,11 @@ def collect_from_coha(target_words,
             # add usage info to buffers
 
 
-            batch_input_ids.append(tokens) # 句子的id
-            batch_tokens.append(tokens_lst) # token的id
-            batch_pos.append(pos_lst) # token对应位置
-            batch_snippets.append(tokens) # 句子id
-            batch_decades.append(decade_lst) # 年份
+            batch_input_ids.append(tokens) # id
+            batch_tokens.append(tokens_lst) # token's id
+            batch_pos.append(pos_lst) # token's position
+            batch_snippets.append(tokens) # sentence's id
+            batch_decades.append(decade_lst) # year
 
             # if the buffers are full...             or if we're at the end of the dataset
             if (len(batch_input_ids) >= buffer_size) or (L == len(lines) - 1 and T == len(decades) - 1):
@@ -168,14 +168,3 @@ def collect_from_coha(target_words,
     return usages
 
 
-if __name__=='__main__':
-    with open('/data1/pivot-extraction/data/test_pivot.txt') as f:
-        pivot=[word.strip() for word in f.readlines()]
-    # print(pivot)
-    collect_from_coha(pivot,
-                      [2001,2021],
-                      sequence_length=128,
-                      file_path=['/data1/pivot-extraction/data/test_source_data.txt',
-                                 '/data1/pivot-extraction/data/test_unlabel_data.txt'],
-                      output_path='saved_usage/test_usage.dict'
-                      )
