@@ -6,7 +6,7 @@ This repository contains the code and pre-trained models for our paper [Improvin
 
 ## Quick Links
 
-- [Overview](https://github.com/warrier98/temporal_adaptation/LMLM#Overview)
+- [Overview](https://github.com/warrier98/temporal_adaptation/LMLM#overview)
 - Datasets
 - Baseline
 - Train
