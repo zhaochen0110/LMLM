@@ -7,15 +7,15 @@ https://github.com/warrier98/temporal_adaptation/blob/main/LMLM
 ## Quick Links
 
 - [Overview](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Overview)
-- Datasets
-- Baseline
-- Train
-  - [Requirements]()
-  - [Candidate Words Selection]()
-  - [Representation and Clustering]()
-  - Train LMLM
-  - Finetuning
-- [Results](https://github.com/noise-learning/SelfMix#results)
+- [Datasets](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Datasets)
+- [Baseline](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Baseline)
+- [Train](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Train)
+  - [Requirements](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Requirements)
+  - [Candidate Words Selection](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Candidate Words Selection)
+  - [Representation and Clustering](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Representation and Clustering)
+  - [Train LMLM](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Train LMLM)
+  - [Finetuning](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Finetuning)
+- [Results](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Results)
 
 
 
