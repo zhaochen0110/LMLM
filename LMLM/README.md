@@ -11,9 +11,9 @@ https://github.com/warrier98/temporal_adaptation/blob/main/LMLM
 - [Baseline](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Baseline)
 - [Train](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Train)
   - [Requirements](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Requirements)
-  - [Candidate Words Selection](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Candidate Words Selection)
-  - [Representation and Clustering](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Representation and Clustering)
-  - [Train LMLM](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Train LMLM)
+  - [Candidate Words Selection](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Candidate)
+  - [Representation and Clustering](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Representation)
+  - [Train LMLM](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Train)
   - [Finetuning](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Finetuning)
 - [Results](https://github.com/warrier98/temporal_adaptation/blob/main/LMLM#Results)
 
