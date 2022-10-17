@@ -6,13 +6,13 @@ This repository contains the code and pre-trained models for our paper [Improvin
 
 ## Quick Links
 
-- [Overview](https://github.com/noise-learning/SelfMix#overview)
+- [Overview](https://github.com/warrier98/temporal_adaptation/LMLM#Overview)
 - Datasets
 - Baseline
 - Train
-  - [Requirements](https://github.com/noise-learning/SelfMix#requirements)
-  - [Candidate Words Selection](https://github.com/noise-learning/SelfMix#quick-start)
-  - [Representation and Clustering](https://github.com/noise-learning/SelfMix#parameters)
+  - [Requirements]()
+  - [Candidate Words Selection]()
+  - [Representation and Clustering]()
   - Train LMLM
   - Finetuning
 - [Results](https://github.com/noise-learning/SelfMix#results)
